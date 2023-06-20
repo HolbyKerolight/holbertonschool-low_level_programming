@@ -6,14 +6,14 @@
 *and the inner loop iterates over the characters from 'a'
 *to 'z' and prints each character using _putchar. It also
 *prints a newline character at the end of each iteration
-*of the outer loop.
+*of the outer loop
 */
 #include "main.h"
 
 void print_alphabet_x10(void)
 {
 	int lettre, i;
-	
+
 	for (i = 0; i < 10; i++)
 	{
 		for (lettre = 97; lettre <= 122; lettre++)
