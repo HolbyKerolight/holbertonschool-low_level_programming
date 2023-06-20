@@ -7,8 +7,8 @@
 
 void print_alphabet(void)
 {
-	char lettre;
-	for (lettre = "a"; lettre <= "z"; lettre++)
+	int lettre;
+	for (lettre = 94; lettre <= 122; lettre++)
 	{
 		_putchar(lettre);
 	}
