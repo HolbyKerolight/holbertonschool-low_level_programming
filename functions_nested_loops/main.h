@@ -1,8 +1,7 @@
-void print_alphabet(void)
-{
-	int i;
+#ifndef MAIN_H
+#define MAIN_H
 
-	for (i = 97; i < 123; i++)
-		_putchar(i);
-	_putchar('\n');
-}
+int _putchar(char c);
+void print_alphabet(void);
+
+#endif /* MAIN_H */
