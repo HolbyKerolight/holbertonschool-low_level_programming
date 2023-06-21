@@ -11,7 +11,7 @@
 * Return 0 if n is zero 
 * Return -1 if n is less than zero
 */
-include "main.h"
+#include "main.h"
 
 int print_sign(int n)
 {
