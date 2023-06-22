@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
-*_abs - function that computes the absolute value of an integer.
+*print_last_digit - function that prints the last digit of a number
 *@n: The number to check
 *
-*Return: absolute value of n (int)
+*Return: Last digit of the number n (int)
 */
 #include "main.h"
 
