@@ -10,10 +10,10 @@
 
 void jack_bauer (void)
 {
-	int i,j;
-	for (i = 0; i <= 24; i++)
+	int hours, minutes;
+	for (hours = 0; hours <= 24; hours++)
 	{
-		for (j = 0; j <= 60; j++)
+		for (minutes = 0; minutes <= 60; minutes++)
 		{
 			_putchar('0' + hours / 10);
 			_putchar('0' + hours % 10);
