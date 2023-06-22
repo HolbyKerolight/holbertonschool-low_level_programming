@@ -8,7 +8,7 @@
 */
 #include "main.h"
 
-void jack_bauer (void)
+void jack_bauer(void)
 {
 	int hours, minutes;
 	for (hours = 0; hours <= 23; hours++)
