@@ -3,7 +3,7 @@
 *
 * @c: the value to check (int)
 *
-* return: 1 (if c is uppercase) 0 (otherwise)
+* Return: 1 if c is uppercase, 0 otherwise
 *
 */
 #include "main.h"
