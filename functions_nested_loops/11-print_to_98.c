@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
-*print_to_98 - function that prints all natural numbers from n to 98, followed by
-*A new line
+*print_to_98 - function that prints all natural numbers from n to 98,
+*Followed by new line
 *@n : number to ckeck
 *
 *Return: void
@@ -16,7 +16,7 @@ void print_to_98(int n)
 		printf("%d, ", n);
 		if (n < 98)
 			n++;
-		else 
+		else
 			n--;
 	}
 	printf("98\n");
