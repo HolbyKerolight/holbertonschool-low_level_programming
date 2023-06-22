@@ -15,3 +15,8 @@ $(NAME): $(OBJ)
 
 clean:
 	rm -f $(OBJ) $(NAME)
+
+.PHONY: run
+
+run: $(NAME)
+	./$(NAME)
