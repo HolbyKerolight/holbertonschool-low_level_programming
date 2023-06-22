@@ -10,18 +10,28 @@
 
 void times_table(void)
 {
-	int i, j, nombre1 = 0, nombre2 = 0;
+	int i, j, product = 0;
 
 	for (i = 0; i < 9; i++)
 	{
 		for (j = 0; j < 9; j++)
 		{
-			_putchar('0' + nombre1);
-			_putchar(',');
-			_putchar(' ');
-			nombre1 += nombre2;
+			product = i * j;
+			if (product < 10)
+			{
+				_putchar(' ');
+			}
+			else
+			{
+				_putchar('0' + product / 10);
+			}
+			_putchar('0' + product % 10);
+			if (j != 9)
+			{
+				_putchar(',');
+				_putchar(' ');
+			}
 		}
 		_putchar('\n');
-		nombre2++;
 	}
 }
