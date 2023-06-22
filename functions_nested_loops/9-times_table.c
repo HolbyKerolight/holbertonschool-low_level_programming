@@ -17,14 +17,21 @@ void times_table(void)
 		for (j = 0; j < 10; j++)
 		{
 			product = i * j;
-			_putchar('0' + product / 10);
-			_putchar('0' + product % 10);
+			if (product < 10)
+			{
+				putchar(' ');
+			}
+			else 
+			{
+				putchar('0' + product / 10);
+			}
+			putchar('0' + product % 10);
 			if (j != 9)
 			{
-				_putchar(',');
-				_putchar(' ');
+				putchar(',');
+				putchar(' ');
 			}
 		}
-	_putchar('\n');
+		putchar('\n');
 	}
 }
