@@ -8,7 +8,7 @@
 */
 #include <stdio.h>
 
-int main()
+int main(void)
 {
 	int i;
 
@@ -21,8 +21,8 @@ int main()
 		else if (i % 5 == 0)
 			printf("Buzz ");
 		else
-			printf("%d", i);
+			printf("%d ", i);
 	}
 	printf("\n");
-	return 0;
+	return (0);
 }
