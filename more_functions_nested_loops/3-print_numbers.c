@@ -2,7 +2,7 @@
 *print_numbers - prinits the numbers, from 0 to 9,
 *Followed by a new line.
 *
-* @void: no parameter
+* @void: no parameter declared
 *
 * Return: void
 *
