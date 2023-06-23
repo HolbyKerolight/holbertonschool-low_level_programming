@@ -1,5 +1,6 @@
 /**
-*function that draws a straight line in the terminal.
+*print_line - function that draws a straight 
+*line in the terminal.
 *
 * @n: number of line
 *
