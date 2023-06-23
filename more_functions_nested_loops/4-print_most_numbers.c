@@ -2,7 +2,7 @@
 *print_most_numbers - prinits the numbers, from 0 to 9,
 *Followed by a new line except 2 and 4
 *
-* @void: no parameter
+* @void: no parameter declared
 *
 * Return: void
 *
