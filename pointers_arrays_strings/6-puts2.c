@@ -10,9 +10,12 @@
 
 void puts2(char *str)
 {
-	int i;
+	int i = 0;
 
-	for (i = 0; str[i]; i += 2)
+	while (str[i] != '\0')
+	{
 		printf("%c", str[i]);
-	putchar('\n');
+		i += 2;
+	}
+	printf("\n");
 }
