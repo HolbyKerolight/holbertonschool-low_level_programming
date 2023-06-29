@@ -5,33 +5,24 @@
  *
  * Return: int
  */
-#include <limits.h>
-#include <stdbool.h>
 
-int _atoi(char *s) 
+int _atoi(char *s)
 {
-	int sign = 1;
 	int result = 0;
-	bool hasDigits = false;
+	int sign = 1;
+	int i = 0;
 
-	while (*s == ' ')
-		s++;
-	if (*s == '-' || *s == '+')
+	while (s[i] != '\0' && (s[i] < '0' || s[i] > '9'))
 	{
-		sign = (*s == '-') ? -1 : 1;
-		s++;
+		if (s[i] == '-')
+			sign *= -1;
+		i++;
 	}
-	while (*s >= '0' && *s <= '9')
+	while (s[i] != '\0' && s[i] >= '0' && s[i] <= '9')
 	{
-		hasDigits = true;
-
-		if (result > (INT_MAX - (*s - '0')) / 10)
-		{
-			result = (sign == -1) ? INT_MIN : INT_MAX;
-			break;
-		}
-		result = result * 10 + (*s - '0');
-		s++;
+		result = result * 10 + s[i] - '0';
+		i++;
 	}
-	return (hasDigits) ? result * sign : 0;
+	return (result * sign);
 }
+
