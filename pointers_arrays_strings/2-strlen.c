@@ -3,7 +3,7 @@
  *
  * @s : pointer to an int
  *
- * return : length of a string (int)
+ * Return : length of a string (int)
  *
  */
 
@@ -13,5 +13,5 @@ int _strlen(char *s)
 
 	while (*s++)
 		length++;
-	return length;
+	return (length);
 }
