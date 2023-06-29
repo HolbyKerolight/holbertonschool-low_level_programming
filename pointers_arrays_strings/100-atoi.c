@@ -5,6 +5,7 @@
  *
  * Return: int
  */
+#include <limits.h>
 
 int _atoi(char *s)
 {
