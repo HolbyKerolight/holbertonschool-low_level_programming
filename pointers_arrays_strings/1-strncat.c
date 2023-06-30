@@ -1,5 +1,5 @@
 /**
- * _strcat - function that concatenates two strings
+ * _strncat - function that concatenates two strings
  *
  * @dest : une chaine de caractere
  * @src : deuxieme chaine
